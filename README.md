@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Strata](screenshot.png)
 
-Strata is a tape-style stereo delay with extra taps on each delay line, six filters and a modulation system. It was written from scratch; no third-party code, presets or artwork are included.
+Strata is a tape-style stereo delay with extra taps on each delay line, six filters and a modulation system. It was written from scratch: the DSP, interface and presets are original work, and third-party components (such as the DPF framework) are listed under [License](#license).
 
 It is the fourth plugin in a family:
 - [Monolith](https://github.com/natehouk/monolith), a synth
