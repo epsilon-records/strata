@@ -180,4 +180,4 @@ New parameters are only ever appended, so saved sessions and automation keep wor
 
 ## License
 
-[MIT](LICENSE). Built with [DPF](https://github.com/DISTRHO/DPF) and its bundled NanoVG, which are under the ISC license. `plugins/Strata/ResizeHandle.hpp` comes from DPF's examples and keeps its ISC notice.
+[MIT](LICENSE). Built with [DPF](https://github.com/DISTRHO/DPF) (ISC license) and its bundled NanoVG (zlib license). `plugins/Strata/ResizeHandle.hpp` comes from DPF's examples and keeps its ISC notice.
