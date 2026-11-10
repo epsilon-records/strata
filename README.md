@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Strata](screenshot.png)
 
-Strata is a clean-room design with the feature set of FabFilter Timeless 3 (2023). Versions 1 and 2 followed the original Timeless (2006); version 3 follows Timeless 3. It was written from scratch, working only from FabFilter's public product pages, release announcements and contemporary reviews. No FabFilter code, binaries, presets, artwork or trademarks were used.
+Strata is a tape-style stereo delay with extra taps on each delay line, six filters and a modulation system. It was written from scratch; no third-party code, presets or artwork are included.
 
 It is the fourth plugin in a family:
 - [Monolith](https://github.com/natehouk/monolith), a synth
@@ -111,26 +111,7 @@ Strata is an audio effect that also accepts MIDI and has a sidechain input. To u
 
 ![Help](screenshot-help.png)
 
-### Compared with FabFilter Timeless 3
-
-| Timeless 3 | Strata 3.0 |
-|---|---|
-| Dual delay lines with tempo sync and panning | ✓ (1 ms to 4 s; straight, dotted, triplet, with offset; tap tempo, link) |
-| Up to 16 delay taps, each controllable and modulatable | ✓ main tap plus 15, with a tap editor and tap patterns |
-| Tape-style or time-stretching behaviour on time changes | ✓ |
-| Feedback, cross-feedback, phase inversion, ping-pong | ✓ |
-| Delay freeze, modulatable | ✓ |
-| Up to six multimode filters with filter panning | ✓ eleven original styles, LP/BP/HP/bell/shelves/notch, serial, parallel or per channel |
-| Feedback effects: drive, lo-fi, diffuse, dynamics, pitch | ✓ |
-| 16-step XLFOs, XY controllers, envelope generators, envelope followers, MIDI sources | ✓ 4 XLFOs, 2 XY pads, 2 EGs, 2 EFs (with sidechain), MIDI |
-| Drag-and-drop modulation with visual feedback | ✓ 50 slots, live rings, a floating per-knob slot list |
-| Stereo width, mid/side processing | ✓ plus wet level and pan |
-| Interactive delay and filter displays | ✓ echo map, tap editor, filter response |
-| MIDI Learn, undo/redo, A/B, parameter smoothing | ✓ |
-| Factory presets, loads earlier presets | 60, plus your own; loads Strata 1.x and 2.x projects and presets, sounding identical |
-| Resizable interface, full-screen mode | Freely resizable interface |
-| Delay up to 5 s | Up to 4 s |
-| AAX, AudioSuite | Not supported (needs Avid's SDK and signing) |
+Not supported: AAX, AudioSuite.
 
 ## Build from source
 
@@ -200,5 +181,3 @@ New parameters are only ever appended, so saved sessions and automation keep wor
 ## License
 
 [MIT](LICENSE). Built with [DPF](https://github.com/DISTRHO/DPF) and its bundled NanoVG, which are under the ISC license. `plugins/Strata/ResizeHandle.hpp` comes from DPF's examples and keeps its ISC notice.
-
-"FabFilter" and "FabFilter Timeless" are trademarks of FabFilter Software Instruments. Strata is not affiliated with or endorsed by FabFilter.
